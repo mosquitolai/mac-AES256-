@@ -1,10 +1,13 @@
+------------------------------------------------------------------------------
+＃中文版
+
 Mola-Vault — macOS 加密工具
 
 一款為 macOS 設計的簡潔檔案加密工具，支援 AES-128 / AES-256 / ZIP 加密與解密。
 介面直覺、注重隱私，適合日常保護個人檔案與敏感資料。
 
 基於 Electron 開發，可快速執行與打包成 .dmg 安裝檔。
-
+------------------------------------------------------------------------------
 #主題模式
 
 支援暗黑、明亮、跟隨系統三種外觀
@@ -32,11 +35,72 @@ Mola-Vault — macOS 加密工具
 #快速操作
 
 支援快捷鍵快速加密與解密
-
+------------------------------------------------------------------------------
 #環境需求
 
 * macOS
 * Node.js 18 或以上版本
-
+------------------------------------------------------------------------------
 #聲明
 如使用本專案導致檔案、文件遺失或無法解密，需自行承擔。
+
+------------------------------------------------------------------------------
+
+#English
+
+Mola-Vault — macOS Encryption Tool
+
+A clean and lightweight file encryption tool designed for macOS, supporting AES-128 / AES-256 / ZIP encryption and decryption.
+With an intuitive interface and privacy-focused design, it is ideal for protecting personal files and sensitive data in everyday use.
+
+Built with Electron, allowing quick execution and packaging into a .dmg installer.
+
+Theme Modes
+
+Supports three appearance modes:
+
+* Dark Mode
+* Light Mode
+* Follow System Settings
+
+Multilingual Interface
+
+Available in:
+
+* Traditional Chinese
+* Simplified Chinese
+* English
+* Japanese
+
+Automatic Decryption Format Detection
+
+Automatically detects:
+
+* .aes256
+* .aes128
+* .zip
+
+Virtual Keyboard
+
+Helps prevent keylogging by randomizing key positions every time it opens.
+
+Screen Protection
+
+Content protection is enabled. Screenshots and screen recordings will display a black screen.
+
+Authenticated Encryption
+
+Uses AES-GCM to detect file tampering and ensure data integrity.
+
+Quick Actions
+
+Supports keyboard shortcuts for fast encryption and decryption.
+
+Requirements
+
+* macOS
+* Node.js 18 or later
+
+Disclaimer
+
+The developer is not responsible for any file loss, document corruption, or decryption failure caused by the use of this project. Users assume all risks and responsibilities.

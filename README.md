@@ -22,19 +22,19 @@ Mola-Vault — macOS 加密工具
 
 自動識別 .aes256 / .aes128 / .zip
 
-## 虛擬鍵盤
+### 虛擬鍵盤
 
 防止鍵盤側錄，按鍵位置每次隨機排列
 
-## 螢幕保護
+### 螢幕保護
 
 啟用內容保護，截圖與錄影顯示黑畫面
 
-## 認證加密
+### 認證加密
 
 採用 AES-GCM，可偵測檔案是否遭竄改
 
-## 快速操作
+### 快速操作
 
 支援快捷鍵快速加密與解密
 ------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ Mola-Vault — macOS 加密工具
 
 ------------------------------------------------------------------------------
 
-#English
+# English
 
 Mola-Vault — macOS Encryption Tool
 
@@ -57,7 +57,7 @@ With an intuitive interface and privacy-focused design, it is ideal for protecti
 
 Built with Electron, allowing quick execution and packaging into a .dmg installer.
 
-Theme Modes
+## Theme Modes
 
 Supports three appearance modes:
 
@@ -65,7 +65,7 @@ Supports three appearance modes:
 * Light Mode
 * Follow System Settings
 
-Multilingual Interface
+## Multilingual Interface
 
 Available in:
 
@@ -74,7 +74,7 @@ Available in:
 * English
 * Japanese
 
-Automatic Decryption Format Detection
+## Automatic Decryption Format Detection
 
 Automatically detects:
 
@@ -82,27 +82,27 @@ Automatically detects:
 * .aes128
 * .zip
 
-Virtual Keyboard
+### Virtual Keyboard
 
 Helps prevent keylogging by randomizing key positions every time it opens.
 
-Screen Protection
+### Screen Protection
 
 Content protection is enabled. Screenshots and screen recordings will display a black screen.
 
-Authenticated Encryption
+### Authenticated Encryption
 
 Uses AES-GCM to detect file tampering and ensure data integrity.
 
-Quick Actions
+### Quick Actions
 
 Supports keyboard shortcuts for fast encryption and decryption.
 
-Requirements
+## Requirements
 
 * macOS
 * Node.js 18 or later
 
-Disclaimer
+## Disclaimer
 
 The developer is not responsible for any file loss, document corruption, or decryption failure caused by the use of this project. Users assume all risks and responsibilities.
